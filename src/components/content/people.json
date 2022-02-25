@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_content_people",
+  "info": {
+    "displayName": "People",
+    "icon": "user-friends",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "person": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.person"
+    },
+    "settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.people"
+    }
+  }
+}

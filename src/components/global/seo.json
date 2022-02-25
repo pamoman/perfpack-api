@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_global_seo",
+  "info": {
+    "displayName": "SEO",
+    "icon": "search"
+  },
+  "options": {},
+  "attributes": {
+    "site_name": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "website",
+        "article",
+        "blog",
+        "book",
+        "game",
+        "movie",
+        "food",
+        "city",
+        "country",
+        "actor",
+        "author",
+        "politician",
+        "company",
+        "hotel",
+        "restaurant"
+      ],
+      "default": "website"
+    }
+  }
+}

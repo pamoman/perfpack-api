@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_settings_videos",
+  "info": {
+    "displayName": "Video",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "autoplay": {
+      "type": "boolean",
+      "default": true
+    },
+    "muted": {
+      "type": "boolean",
+      "default": true
+    },
+    "controls": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_caption": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_settings_galleries",
+  "info": {
+    "displayName": "Gallery",
+    "icon": "bacon"
+  },
+  "options": {},
+  "attributes": {
+    "show_caption": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

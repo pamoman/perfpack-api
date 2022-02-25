@@ -1,0 +1,31 @@
+{
+  "name": "perfpack-api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Performance Pack API",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-graphql": "^4.1.1",
+    "@strapi/plugin-i18n": "4.1.1",
+    "@strapi/plugin-users-permissions": "4.1.1",
+    "@strapi/strapi": "4.1.1",
+    "mysql": "2.18.1"
+  },
+  "author": {
+    "name": "Paul Moreland"
+  },
+  "strapi": {
+    "uuid": "6674deab-a0b7-44f3-b3bf-870e676ce415"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

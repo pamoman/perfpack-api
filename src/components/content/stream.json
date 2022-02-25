@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_content_streams",
+  "info": {
+    "displayName": "Stream",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "alternative_text": {
+      "type": "string"
+    },
+    "caption": {
+      "type": "string"
+    },
+    "settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.video"
+    }
+  }
+}

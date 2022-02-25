@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_content_galleries",
+  "info": {
+    "displayName": "Gallery",
+    "icon": "photo-video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.gallery"
+    },
+    "gallery_settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "gallery.settings"
+    },
+    "gallery_buttons": {
+      "type": "component",
+      "repeatable": false,
+      "component": "gallery.buttons"
+    },
+    "gallery_caption": {
+      "type": "component",
+      "repeatable": false,
+      "component": "gallery.caption"
+    },
+    "gallery_thumbnails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "gallery.thumbnails"
+    },
+    "gallery_progress_bar": {
+      "type": "component",
+      "repeatable": false,
+      "component": "gallery.progress-bar"
+    }
+  }
+}

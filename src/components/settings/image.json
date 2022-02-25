@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_settings_images",
+  "info": {
+    "displayName": "Image",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "show_caption": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

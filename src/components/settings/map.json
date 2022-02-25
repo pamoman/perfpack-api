@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_settings_maps",
+  "info": {
+    "displayName": "Map",
+    "icon": "map-marked-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "zoom": {
+      "type": "integer",
+      "default": 11,
+      "max": 18,
+      "min": 0
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "small",
+        "medium",
+        "large",
+        "wide"
+      ],
+      "default": "medium"
+    }
+  }
+}

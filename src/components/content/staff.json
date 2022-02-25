@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_content_staff",
+  "info": {
+    "displayName": "Staff",
+    "icon": "male",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "users_permissions_users": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::users-permissions.user"
+    },
+    "settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.people"
+    }
+  }
+}

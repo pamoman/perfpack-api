@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_settings_people",
+  "info": {
+    "displayName": "People",
+    "icon": "users-cog"
+  },
+  "options": {},
+  "attributes": {
+    "show_name": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_email": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_image": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_title": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_bio": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_tel": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_mobile": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

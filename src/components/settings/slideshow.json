@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_settings_slideshows",
+  "info": {
+    "displayName": "Slideshow",
+    "icon": "angle-down"
+  },
+  "options": {},
+  "attributes": {
+    "interval": {
+      "type": "integer",
+      "default": 5
+    },
+    "autoplay": {
+      "type": "boolean",
+      "default": true
+    },
+    "dots": {
+      "type": "boolean",
+      "default": true
+    },
+    "arrows": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

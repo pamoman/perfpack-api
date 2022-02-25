@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_content_companies",
+  "info": {
+    "displayName": "Company",
+    "icon": "building"
+  },
+  "options": {},
+  "attributes": {
+    "settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.company"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_settings_headings",
+  "info": {
+    "displayName": "Heading",
+    "icon": "angle-up"
+  },
+  "options": {},
+  "attributes": {
+    "component": {
+      "type": "enumeration",
+      "enum": [
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6"
+      ],
+      "default": "h2"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "subtitle1",
+        "subtitle2",
+        "body1",
+        "body2",
+        "BUTTON",
+        "caption",
+        "OVERLINE"
+      ],
+      "default": "h2"
+    }
+  }
+}

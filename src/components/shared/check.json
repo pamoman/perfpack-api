@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_checks",
+  "info": {
+    "displayName": "Check",
+    "icon": "check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "option": {
+      "type": "string"
+    }
+  }
+}

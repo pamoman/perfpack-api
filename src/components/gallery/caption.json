@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_gallery_captions",
+  "info": {
+    "displayName": "Caption",
+    "icon": "audio-description"
+  },
+  "options": {},
+  "attributes": {
+    "showCaption": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

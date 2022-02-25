@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_gallery_buttons",
+  "info": {
+    "displayName": "Buttons",
+    "icon": "bullseye"
+  },
+  "options": {},
+  "attributes": {
+    "showAutoplayButton": {
+      "type": "boolean",
+      "default": true
+    },
+    "showCloseButton": {
+      "type": "boolean",
+      "default": true
+    },
+    "showDownloadButton": {
+      "type": "boolean",
+      "default": false
+    },
+    "showFullscreenButton": {
+      "type": "boolean",
+      "default": true
+    },
+    "showNextButton": {
+      "type": "boolean",
+      "default": true
+    },
+    "showPrevButton": {
+      "type": "boolean",
+      "default": true
+    },
+    "showThumbnailsButton": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

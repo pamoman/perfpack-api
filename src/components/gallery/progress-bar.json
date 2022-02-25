@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_gallery_progress_bars",
+  "info": {
+    "displayName": "Progress Bar",
+    "icon": "barcode"
+  },
+  "options": {},
+  "attributes": {
+    "showProgressBar": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

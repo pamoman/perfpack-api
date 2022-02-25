@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_global_header",
+  "info": {
+    "displayName": "header",
+    "icon": "bus",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.seo"
+    },
+    "pwa": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.pwa"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

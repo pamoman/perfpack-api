@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_gallery_settings",
+  "info": {
+    "displayName": "Settings",
+    "icon": "braille"
+  },
+  "options": {},
+  "attributes": {
+    "autoplaySpeed": {
+      "type": "integer",
+      "default": 3000
+    },
+    "slideTransitionSpeed": {
+      "type": "decimal",
+      "default": 0.6
+    },
+    "disableKeyboardControls": {
+      "type": "boolean",
+      "default": false
+    },
+    "disableWheelControls": {
+      "type": "boolean",
+      "default": false
+    },
+    "disablePanzoom": {
+      "type": "boolean",
+      "default": false
+    },
+    "lightboxTransitionSpeed": {
+      "type": "decimal",
+      "default": 0.3
+    },
+    "lightboxTransitionTimingFunction": {
+      "type": "enumeration",
+      "enum": [
+        "linear",
+        "easeIn",
+        "easeOut",
+        "easeInOut",
+        "circIn",
+        "circOut",
+        "circInOut",
+        "backIn",
+        "backOut",
+        "backInOut",
+        "anticipate"
+      ],
+      "default": "linear"
+    }
+  }
+}

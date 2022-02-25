@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_content_articles",
+  "info": {
+    "displayName": "Article",
+    "icon": "font",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "article": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    }
+  }
+}

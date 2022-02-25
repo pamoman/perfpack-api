@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_content_maps",
+  "info": {
+    "displayName": "Map",
+    "icon": "map",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "lat": {
+      "type": "float"
+    },
+    "lng": {
+      "type": "float"
+    },
+    "settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.map"
+    }
+  }
+}

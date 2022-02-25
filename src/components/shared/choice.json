@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_choices",
+  "info": {
+    "displayName": "Choice",
+    "icon": "hand-pointer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "option": {
+      "type": "string"
+    }
+  }
+}

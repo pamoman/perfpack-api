@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_gallery_thumbnails",
+  "info": {
+    "displayName": "Thumbnails",
+    "icon": "th-large"
+  },
+  "options": {},
+  "attributes": {
+    "showThumbnails": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

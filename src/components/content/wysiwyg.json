@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_content_wysiwygs",
+  "info": {
+    "displayName": "WYSIWYG",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

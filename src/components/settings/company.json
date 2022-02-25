@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_settings_companies",
+  "info": {
+    "displayName": "Company",
+    "icon": "building"
+  },
+  "options": {},
+  "attributes": {
+    "show_name": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_location": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_address": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_tel": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_mobile": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_email": {
+      "type": "boolean",
+      "default": true
+    },
+    "map_settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.map"
+    }
+  }
+}
