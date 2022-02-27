@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_icons",
+  "info": {
+    "displayName": "Icon",
+    "icon": "icons"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "regular",
+        "solid"
+      ],
+      "default": "solid"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
