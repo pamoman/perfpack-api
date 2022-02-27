@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_content_tables",
+  "info": {
+    "displayName": "Table",
+    "icon": "table",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "head": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.table-head"
+    },
+    "rows": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.table-row"
+    },
+    "settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.table"
+    }
+  }
+}

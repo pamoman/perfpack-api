@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "person": {
+    "people": {
       "type": "component",
       "repeatable": true,
       "component": "shared.person"

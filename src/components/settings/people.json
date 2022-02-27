@@ -2,7 +2,8 @@
   "collectionName": "components_settings_people",
   "info": {
     "displayName": "People",
-    "icon": "users-cog"
+    "icon": "users-cog",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -33,6 +34,10 @@
     "show_mobile": {
       "type": "boolean",
       "default": true
+    },
+    "company_email": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

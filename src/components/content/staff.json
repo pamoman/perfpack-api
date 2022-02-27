@@ -7,10 +7,10 @@
   },
   "options": {},
   "attributes": {
-    "users_permissions_users": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "plugin::users-permissions.user"
+    "employees": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.employee"
     },
     "settings": {
       "type": "component",

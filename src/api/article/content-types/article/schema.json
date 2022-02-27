@@ -34,7 +34,8 @@
         "content.wysiwyg",
         "content.company",
         "content.heading",
-        "content.staff"
+        "content.staff",
+        "content.table"
       ]
     }
   }

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_table_values",
+  "info": {
+    "displayName": "Table Value",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    }
+  }
+}

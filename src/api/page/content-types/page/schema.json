@@ -45,7 +45,8 @@
         "content.staff",
         "content.stream",
         "content.video",
-        "content.wysiwyg"
+        "content.wysiwyg",
+        "content.table"
       ]
     }
   }

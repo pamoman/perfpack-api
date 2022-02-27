@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_settings_tables",
+  "info": {
+    "displayName": "Table",
+    "icon": "table",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "show_head": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_name": {
+      "type": "boolean",
+      "default": true
+    },
+    "table_size": {
+      "type": "enumeration",
+      "enum": [
+        "small",
+        "medium"
+      ],
+      "default": "medium"
+    },
+    "align_cells": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "default": "left"
+    }
+  }
+}

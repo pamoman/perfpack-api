@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_table_heads",
+  "info": {
+    "displayName": "Table Head",
+    "icon": "window-maximize",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "columns": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.table-column"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_table_columns",
+  "info": {
+    "displayName": "Table Column",
+    "icon": "columns"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
