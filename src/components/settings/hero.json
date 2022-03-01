@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_settings_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "arrows-alt-h"
+  },
+  "options": {},
+  "attributes": {
+    "desktop_postion_x": {
+      "type": "integer",
+      "default": 50,
+      "max": 100,
+      "min": 0
+    },
+    "desktop_position_y": {
+      "type": "integer",
+      "max": 100,
+      "min": 0,
+      "default": 50
+    },
+    "mobile_position_x": {
+      "type": "integer",
+      "default": 50,
+      "max": 100,
+      "min": 0
+    },
+    "mobile_position_y": {
+      "type": "integer",
+      "default": 50,
+      "max": 100,
+      "min": 0
+    }
+  }
+}
