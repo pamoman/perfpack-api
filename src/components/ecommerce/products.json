@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ecommerce_products",
+  "info": {
+    "displayName": "Products",
+    "icon": "tags",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product"
+    },
+    "settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.product"
+    }
+  }
+}

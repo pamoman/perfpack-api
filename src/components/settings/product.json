@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_settings_products",
+  "info": {
+    "displayName": "Product",
+    "icon": "atom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "show_price": {
+      "type": "boolean",
+      "default": false
+    },
+    "allow_purchase": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

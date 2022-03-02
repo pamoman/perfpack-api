@@ -38,7 +38,6 @@
     "content": {
       "type": "dynamiczone",
       "components": [
-        "content.article",
         "content.company",
         "content.gallery",
         "content.heading",
@@ -51,7 +50,9 @@
         "content.stream",
         "content.video",
         "content.wysiwyg",
-        "content.table"
+        "content.table",
+        "ecommerce.checkout",
+        "ecommerce.products"
       ]
     }
   }

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_ecommerce_checkouts",
+  "info": {
+    "displayName": "Checkout",
+    "icon": "cash-register"
+  },
+  "options": {},
+  "attributes": {
+    "order": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::order.order"
+    },
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product"
+    }
+  }
+}
