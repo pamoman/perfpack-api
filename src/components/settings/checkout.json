@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_settings_checkouts",
+  "info": {
+    "displayName": "Checkout",
+    "icon": "shopping-cart"
+  },
+  "options": {},
+  "attributes": {
+    "show_image": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
