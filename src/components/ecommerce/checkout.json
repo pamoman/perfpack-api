@@ -11,6 +11,11 @@
       "type": "component",
       "repeatable": false,
       "component": "settings.checkout"
+    },
+    "swish": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ecommerce.swish"
     }
   }
 }

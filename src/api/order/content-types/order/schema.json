@@ -21,16 +21,17 @@
     "email": {
       "type": "email"
     },
-    "amount": {
-      "type": "integer"
-    },
     "total": {
       "type": "decimal"
     },
-    "products": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::product.product"
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ecommerce.item"
+    },
+    "paid": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

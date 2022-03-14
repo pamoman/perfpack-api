@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_ecommerce_swishes",
+  "info": {
+    "displayName": "Swish",
+    "icon": "money-bill-wave-alt"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "change_amount": {
+      "type": "boolean",
+      "default": false
+    },
+    "change_message": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
