@@ -13,18 +13,26 @@ const newOrderEmail = {
         
         <%= order.basketText %>
 
-        Total: <%= order.total %>
+        Total: <%= order.total %> kr
 
         Betalninsstatus: <%= order.status %>
+
+        Swish nummer: 123 598 20 38
 
         Hälsningar PerformancePack
     `,
     html: `<h1>Grattis <%= order.firstname %>!</h1>
         <p>Ditt ordernummer är: <%= order.id %></p>
+
         <p>Du har beställt följande produkter:</p>
+
         <%= order.basketHTML %>
-        <p>Total: <%= order.total %></p>
+
+        <p>Total: <%= order.total %> kr</p>
+
         <p>Betalninsstatus: <%= order.status %></p>
+
+        <p>Swish nummer: 123 598 20 38</>
 
         <p>Hälsningar PerformancePack</p>
     `,
@@ -49,8 +57,13 @@ const updateOrderEmail = {
     `,
     html: `<h1>Ändrad Betalningsstatus</h1>
         <p>Ditt ordernummer är: <%= order.id %></p>
+
         <p>Du har beställt följande produkter:</p>
+
         <%= order.basketHTML %>
+
+        <p>Total: <%= order.total %> kr</p>
+
         <p>Betalninsstatus: <%= order.status %></p>
 
         <p>Hälsningar PerformancePack</p>
