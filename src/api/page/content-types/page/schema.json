@@ -19,17 +19,6 @@
       "type": "string",
       "unique": true
     },
-    "label": {
-      "type": "string"
-    },
-    "icon": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.icon"
-    },
-    "order": {
-      "type": "integer"
-    },
     "page": {
       "type": "dynamiczone",
       "components": [
