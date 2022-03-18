@@ -12,11 +12,6 @@
         "primary",
         "secondary"
       ]
-    },
-    "link": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.link"
     }
   }
 }

@@ -14,7 +14,7 @@
     "nav": {
       "type": "component",
       "repeatable": true,
-      "component": "shared.nav-link"
+      "component": "shared.link"
     },
     "seo": {
       "type": "component",

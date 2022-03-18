@@ -1,29 +1,36 @@
 {
   "collectionName": "components_shared_links",
   "info": {
-    "displayName": "link",
-    "icon": "backward",
+    "displayName": "Link",
+    "icon": "external-link-alt",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "href": {
-      "type": "string",
-      "required": true
-    },
     "label": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
-    "target": {
+    "path": {
+      "type": "string",
+      "default": "/"
+    },
+    "icon": {
       "type": "enumeration",
       "enum": [
-        "_blank",
-        "_self",
-        "_parent",
-        "_top"
+        "file-lines",
+        "house-crack",
+        "address-card",
+        "cart-shopping",
+        "shop"
+      ]
+    },
+    "location": {
+      "type": "enumeration",
+      "enum": [
+        "internal",
+        "external"
       ],
-      "default": "_self"
+      "default": "internal"
     }
   }
 }

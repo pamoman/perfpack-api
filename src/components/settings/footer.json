@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_settings_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "angle-double-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "show_location": {
+      "type": "boolean",
+      "default": false
+    },
+    "show_email": {
+      "type": "boolean",
+      "default": false
+    },
+    "show_tel": {
+      "type": "boolean",
+      "default": false
+    },
+    "show_mobile": {
+      "type": "boolean",
+      "default": false
+    },
+    "show_copyright": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

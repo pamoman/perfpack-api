@@ -2,17 +2,18 @@
   "collectionName": "components_global_footer",
   "info": {
     "displayName": "footer",
-    "icon": "window-minimize"
+    "icon": "window-minimize",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "footerColumns": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.footer-columns"
-    },
     "copyright": {
       "type": "string"
+    },
+    "settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.footer"
     }
   }
 }
