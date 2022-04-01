@@ -19,6 +19,12 @@ const newOrderEmail = {
 
         Swish nummer: 123 598 20 38
 
+        Leverans sker via upphämptning varje fredag
+        
+        utanför F-husets huvudentrèn på De la Gardiegymnasiet.
+
+        Kontakta oss om alternativ leverans önskas.
+
         Hälsningar PerformancePack
     `,
     html: `<h1>Grattis <%= order.firstname %>!</h1>
@@ -34,12 +40,18 @@ const newOrderEmail = {
 
         <p>Swish nummer: 123 598 20 38</>
 
+        <p>Leverans sker via upphämptning varje fredag
+        
+        utanför F-husets huvudentrèn på De la Gardiegymnasiet.</p>
+
+        <p>Kontakta oss om alternativ leverans önskas.</p>
+
         <p>Hälsningar PerformancePack</p>
     `,
 };
 
 const updateOrderEmail = {
-    subject: 'Ändrad Status',
+    subject: 'Ändrad orderstatus',
     text: `
         Ändrad Betalninsstatus
 
@@ -53,9 +65,15 @@ const updateOrderEmail = {
 
         Betalninsstatus: <%= order.status %>
 
+        Leverans sker via upphämptning varje fredag
+        
+        utanför F-husets huvudentrèn på De la Gardiegymnasiet.
+
+        Kontakta oss om alternativ leverans önskas.
+
         Hälsningar PerformancePack
     `,
-    html: `<h1>Ändrad Betalningsstatus</h1>
+    html: `<h1>Ändrad orderstatus</h1>
         <p>Ditt ordernummer är: <%= order.id %></p>
 
         <p>Du har beställt följande produkter:</p>
@@ -65,6 +83,12 @@ const updateOrderEmail = {
         <p>Total: <%= order.total %> kr</p>
 
         <p>Betalninsstatus: <%= order.status %></p>
+
+        <p>Leverans sker via upphämptning varje fredag
+        
+        utanför F-husets huvudentrèn på De la Gardiegymnasiet.</p>
+
+        <p>Kontakta oss om alternativ leverans önskas.</p>
 
         <p>Hälsningar PerformancePack</p>
     `,
@@ -86,8 +110,8 @@ const sendMail = async (template, result) => {
     items.forEach(item => {
         const { name, quantity, price, subtotal } = item;
 
-        basketHTML += `<p>${quantity}st ${name} @ ${price}/st = ${subtotal}kr</p>`;
-        basketText += `${quantity}st ${name} @ ${price}/st = ${subtotal}kr\n`
+        basketHTML += `<p>${quantity}st ${name} ${price}/st = ${subtotal}kr</p>`;
+        basketText += `${quantity}st ${name} ${price}/st = ${subtotal}kr\n`
     });
 
     await strapi.plugins['email'].services.email.sendTemplatedEmail(
